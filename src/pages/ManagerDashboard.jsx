@@ -51,7 +51,7 @@ export default function ManagerDashboard() {
 
       const response =
         await fetch(
-          "http://localhost:8080/goals"
+          "https://web-production-0f7c0.up.railway.app/goals"
         );
 
       const data =

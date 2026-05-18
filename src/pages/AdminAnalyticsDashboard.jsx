@@ -485,7 +485,7 @@ const exportExcel = () => {
 
              const link = document.createElement("a");
 
-             link.href = "http://localhost:8080/goals/export/csv";
+             link.href = "https://web-production-0f7c0.up.railway.app/goals/export/csv";
 
              link.setAttribute("download", "KPI_Report.csv");
 
