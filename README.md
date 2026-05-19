@@ -77,20 +77,14 @@ Environment Variables
 
 Create .env file:
 
-VITE_API_URL=https://web-production-0f7c0.up.railway.app
+VITE_API_URL=https://web-production-0f7c0.up.railway.app,
+
 Build for Production
 npm run build
+
 Deployment
-Frontend
-
-Deployed using:
-
-Vercel
-Backend
-
-Deployed using:
-
-Railway
+Frontend Deployed using: Vercel
+Backend Deployed using: Railway
 
 Folder Structure
 src/
@@ -103,25 +97,25 @@ src/
 ├── routes/
 └── utils/
 
-Login Credentials
+Login Credentials:
 Employee
 Email: suyash@gmail.com
-Password: 12345
+Password: 12345,
 Manager
 Email: manager@atomquest.com
-Password: manager123
+Password: manager123,
 Admin
 Email: admin@atomquest.com
-Password: admin123
+Password: admin123,
 
-Future Enhancements
-AI Insights Panel
-Team Leaderboards
-Real-time Notifications
-Advanced Analytics
+Future Enhancements:
+AI Insights Panel,
+Team Leaderboards,
+Real-time Notifications,
+Advanced Analytics,
 
 Developed By Suyash Sinha
 (BTECH 3rd YEAR BIT MESRA, OFF-CAMPUS PATNA) 
 
-License
+License:
 This project is developed for educational, enterprise learning, and hackathon purposes.
