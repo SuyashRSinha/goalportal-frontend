@@ -4,59 +4,59 @@ A modern enterprise KPI & Goal Management Portal frontend built using React, Vit
 
 This application provides role-based dashboards for:
 
-Employee
-Manager
+Employee,
+Manager,
 Admin / HR
 
 with enterprise-grade UI, analytics, goal tracking, and performance management workflows.
 
 Live Demo
-Frontend URL
+Frontend URL:
 https://goalportal-frontend.vercel.app
 
-Backend API
+Backend API:
 https://web-production-0f7c0.up.railway.app
 
 GitHub Repository
 https://github.com/SuyashRSinha/goalportal-frontend
 
-Tech Stack
-Frontend
-React
-Vite
-Tailwind CSS
-Axios
-Framer Motion
-React Icons
-React Router DOM
-Deployment
-Vercel (Frontend)
-Railway (Backend & Database)
+Tech Stack:
+Frontend:
+React,
+Vite,
+Tailwind CSS,
+Axios,
+Framer Motion,
+React Icons,
+React Router DOM,
+Deployment,
+Vercel (Frontend),
+Railway (Backend & Database).
 
-Features
-Authentication
-JWT-based login
-Role-based access
-Secure session handling
-Employee Features
-Create goals
-Track progress
-Quarterly check-ins
-KPI visibility
-Goal analytics
-Manager Features
-Review employee goals
-Approve / Reject goals
-Team performance overview
-Goal monitoring
-Admin / HR Features
-Organization-wide analytics
-Shared KPI management
-User management
-Audit visibility
-Dashboard insights
+Features:
+Authentication,
+JWT-based login,
+Role-based access,
+Secure session handling,
+Employee Features,
+Create goals,
+Track progress,
+Quarterly check-ins,
+KPI visibility,
+Goal analytics,
+Manager Features,
+Review employee goals,
+Approve / Reject goals,
+Team performance overview,
+Goal monitoring,
+Admin / HR Features,
+Organization-wide analytics,
+Shared KPI management,
+User management,
+Audit visibility,
+Dashboard insights,
 
-Installation
+Installation:
 
 Clone repository:
 
