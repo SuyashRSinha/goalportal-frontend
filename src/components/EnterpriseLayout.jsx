@@ -361,7 +361,7 @@ py-6
                       localStorage.clear();
 
                       window.location.href =
-                        "http://localhost:5173/";
+                        "https://goalportal-frontend.vercel.app/";
 
                     }}
 
