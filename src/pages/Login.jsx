@@ -310,7 +310,7 @@ useEffect(() => {
 
         const response =
           await axios.post(
-            "https://web-production-0f7c0.up.railway.app/auth/login",
+            "https://web-production-0f7c0.up.railway.app/auth/Login",
             {
               email,
               password
