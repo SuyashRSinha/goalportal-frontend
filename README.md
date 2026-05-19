@@ -121,7 +121,7 @@ Real-time Notifications
 Advanced Analytics
 
 Developed By Suyash Sinha
-BTECH 3rd YEAR BIT MESRA, OFF-CAMPUS PATNA 
+(BTECH 3rd YEAR BIT MESRA, OFF-CAMPUS PATNA) 
 
 License
 This project is developed for educational, enterprise learning, and hackathon purposes.
