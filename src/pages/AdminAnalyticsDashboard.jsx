@@ -231,7 +231,7 @@ const exportExcel = () => {
       setGovernanceData(governanceSummaryResponse.data);
 
 
-      const governanceTrackingResponse = await api.get("/goals/governance-tracking");
+      const governanceTrackingResponse = await api.get("/goals/governance-summary");
 
       setGovernanceTracking(governanceTrackingResponse.data);
 
