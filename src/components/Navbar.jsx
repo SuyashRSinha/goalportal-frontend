@@ -1,6 +1,6 @@
 export default function Navbar() {
 
-  // GET ROLE FROM LOCAL STORAGE
+
   const role = localStorage.getItem("role");
 
   return (
