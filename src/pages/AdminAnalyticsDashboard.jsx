@@ -126,9 +126,7 @@ const exportCSV = () => {
 
 };
 
-// ===============================
-// EXPORT EXCEL FUNCTION
-// ===============================
+
 
 const exportExcel = () => {
 
@@ -244,7 +242,7 @@ const exportExcel = () => {
     }
   };
 
-  // APPROVAL DATA
+
 
   const approvalData = [
 
@@ -274,7 +272,7 @@ const exportExcel = () => {
 
   ];
 
-  // PROGRESS DATA
+
 
   const progressData = [
 
@@ -315,7 +313,7 @@ const exportExcel = () => {
 
   ];
 
-  // QUARTER DATA
+  
 
   const quarterData = [
 
@@ -349,7 +347,8 @@ const exportExcel = () => {
 
   ];
 
-  // COMPLETION RATE
+
+  
 
   const completionRate = goals.length > 0
 
@@ -507,7 +506,7 @@ const exportExcel = () => {
 
         </div>
 
-        {/* HEADER */}
+    
 
         <motion.div
 
@@ -542,11 +541,11 @@ const exportExcel = () => {
 
         </motion.div>
 
-        {/* TOP STATS */}
+       
 
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-6 mb-14">
 
-          {/* TOTAL */}
+      
 
           <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
 
@@ -563,8 +562,6 @@ const exportExcel = () => {
             </h2>
 
           </div>
-
-          {/* APPROVED */}
 
           <div className="rounded-3xl border border-green-500/20 bg-green-500/10 backdrop-blur-xl p-6">
 
@@ -590,7 +587,7 @@ const exportExcel = () => {
 
           </div>
 
-          {/* PENDING */}
+         
 
           <div className="rounded-3xl border border-yellow-500/20 bg-yellow-500/10 backdrop-blur-xl p-6">
 
@@ -616,7 +613,7 @@ const exportExcel = () => {
 
           </div>
 
-          {/* REJECTED */}
+        
 
           <div className="rounded-3xl border border-red-500/20 bg-red-500/10 backdrop-blur-xl p-6">
 
@@ -642,7 +639,7 @@ const exportExcel = () => {
 
           </div>
 
-          {/* COMPLETION RATE */}
+    
 
           <div className="rounded-3xl border border-blue-500/20 bg-blue-500/10 backdrop-blur-xl p-6">
 
@@ -677,7 +674,7 @@ const exportExcel = () => {
   className="mt-14"
 >
 
-  {/* HEADER */}
+
 
   <div className="mt-20">
 
@@ -695,7 +692,7 @@ const exportExcel = () => {
 
   </div>
 
-  {/* TABLE */}
+ 
 
   <div className="overflow-x-auto rounded-[32px]
   border border-white/10
@@ -751,7 +748,7 @@ const exportExcel = () => {
                 hover:bg-white/5 transition-all duration-300"
               >
 
-                {/* EMPLOYEE */}
+              
 
                 <td className="p-6 font-semibold">
 
@@ -759,7 +756,7 @@ const exportExcel = () => {
 
                 </td>
 
-                {/* GOAL */}
+            
 
                 <td className="p-6">
 
@@ -767,7 +764,7 @@ const exportExcel = () => {
 
                 </td>
 
-                {/* QUARTER */}
+             
 
                 <td className="p-6">
 
@@ -775,7 +772,7 @@ const exportExcel = () => {
 
                 </td>
 
-                {/* EMPLOYEE STATUS */}
+               
 
                 <td className="p-6">
 
@@ -813,8 +810,7 @@ const exportExcel = () => {
 
                 </td>
 
-                {/* MANAGER REVIEW */}
-                {/* MANAGER REVIEW */}
+           
 
 <td className="p-6">
 
@@ -867,7 +863,6 @@ const exportExcel = () => {
 
 </td>
 
-{/* FINAL STATUS */}
 
 <td className="p-6">
 
@@ -926,7 +921,7 @@ const exportExcel = () => {
 </motion.div>
 
 
-        {/* GOVERNANCE ANALYTICS */}
+      
 
 
 
@@ -967,7 +962,7 @@ const exportExcel = () => {
 
   <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
 
-    {/* COMPLETED CHECKINS */}
+  
 
     <div className="rounded-3xl
     border border-green-500/20
@@ -991,7 +986,6 @@ const exportExcel = () => {
 
     </div>
 
-    {/* PENDING */}
 
     <div className="rounded-3xl
     border border-yellow-500/20
@@ -1015,7 +1009,7 @@ const exportExcel = () => {
 
     </div>
 
-    {/* COMPLETION RATE */}
+   
 
     <div className="rounded-3xl
     border border-blue-500/20
@@ -1039,7 +1033,7 @@ const exportExcel = () => {
 
     </div>
 
-    {/* DELAYED */}
+ 
 
     <div className="rounded-3xl
     border border-red-500/20
@@ -1068,13 +1062,10 @@ const exportExcel = () => {
 </motion.div>
 
 
-        {/* CHARTS */}
-        {/* PIE CHART */}
-
           
           <div className="space-y-8">
 
-  {/* COMPLETED */}
+  
 
   <div>
 
@@ -1127,7 +1118,7 @@ const exportExcel = () => {
 
   </div>
 
-  {/* ON TRACK */}
+ 
 
   <div>
 
@@ -1180,7 +1171,7 @@ const exportExcel = () => {
 
   </div>
 
-  {/* DELAYED */}
+
 
   <div>
 
@@ -1233,7 +1224,7 @@ const exportExcel = () => {
 
   </div>
 
-  {/* NOT STARTED */}
+
 
   <div>
 
