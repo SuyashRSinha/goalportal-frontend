@@ -40,7 +40,7 @@ function DashboardLayout({
 
     <div className="min-h-screen bg-[#020617] text-white overflow-x-hidden">
 
-      {/* TOP NAVBAR */}
+   
 
       <motion.header
 
@@ -65,11 +65,11 @@ function DashboardLayout({
 
           <div className="flex flex-col 2xl:flex-row 2xl:items-center 2xl:justify-between gap-5 py-5">
 
-            {/* TOP SECTION */}
+         
 
             <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between gap-5 w-full">
 
-              {/* LEFT */}
+           
 
               <div className="min-w-0">
 
@@ -87,7 +87,7 @@ function DashboardLayout({
 
               </div>
 
-              {/* PROFILE */}
+            
 
               <motion.div
 
@@ -98,7 +98,7 @@ function DashboardLayout({
                 className="flex items-center gap-4 bg-[#0b1120] border border-slate-800 rounded-2xl px-4 py-3 shadow-2xl w-full sm:w-fit"
               >
 
-                {/* AVATAR */}
+              
 
                 <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-lg font-bold uppercase flex-shrink-0">
 
@@ -106,7 +106,7 @@ function DashboardLayout({
 
                 </div>
 
-                {/* INFO */}
+              
 
                 <div className="min-w-0">
 
@@ -128,7 +128,7 @@ function DashboardLayout({
 
             </div>
 
-            {/* NAVIGATION */}
+          
 
             <div className="flex flex-wrap items-center justify-center 2xl:justify-end gap-3 w-full">
 
@@ -192,7 +192,6 @@ function DashboardLayout({
 
       </motion.header>
 
-      {/* PAGE CONTENT */}
 
       <motion.main
 
