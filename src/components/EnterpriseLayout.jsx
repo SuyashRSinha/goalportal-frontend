@@ -20,7 +20,7 @@ function EnterpriseLayout({
 
     <div className="min-h-screen bg-[#020617] text-white overflow-hidden">
 
-      {/* BACKGROUND EFFECTS */}
+  
 
       <div className="fixed inset-0 -z-10">
 
@@ -30,7 +30,6 @@ function EnterpriseLayout({
 
       </div>
 
-      {/* NAVBAR */}
 
       <div className="sticky top-0 z-50 border-b border-white/10 backdrop-blur-2xl bg-[#020617]/80">
 
@@ -38,7 +37,7 @@ function EnterpriseLayout({
 
           <div className="h-24 flex items-center justify-between">
 
-            {/* LEFT */}
+         
 
             <div className="flex flex-col">
 
@@ -56,11 +55,10 @@ function EnterpriseLayout({
 
             </div>
 
-            {/* RIGHT */}
+         
 
             <div className="flex items-center gap-3">
 
-              {/* PROFILE */}
 
               <motion.div
 
@@ -76,11 +74,11 @@ function EnterpriseLayout({
                 transition-all duration-300"
               >
 
-                {/* GLOW */}
+             
 
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-all duration-500" />
 
-                {/* AVATAR */}
+               
 
                 <div
                   className="w-11 h-11 rounded-xl
@@ -93,7 +91,7 @@ function EnterpriseLayout({
 
                 </div>
 
-                {/* USER INFO */}
+               
 
                 <div className="hidden sm:block leading-tight">
 
@@ -113,7 +111,7 @@ function EnterpriseLayout({
 
               </motion.div>
 
-              {/* LOGOUT */}
+             
 
               <motion.button
 
@@ -150,7 +148,7 @@ function EnterpriseLayout({
 
       </div>
 
-      {/* PAGE HEADER */}
+    
 
       {
 
@@ -177,7 +175,7 @@ function EnterpriseLayout({
               shadow-[0_0_60px_rgba(59,130,246,0.12)]"
             >
 
-              {/* INNER GLOW */}
+         
 
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(59,130,246,0.15),transparent_40%)]" />
 
@@ -211,8 +209,7 @@ function EnterpriseLayout({
 
       }
 
-      {/* CONTENT */}
-      {/* CONTENT */}
+    
 
 <div className="
 
@@ -235,7 +232,7 @@ py-6
 
      
 
-      {/* LOGOUT MODAL */}
+      
 
       <AnimatePresence>
 
@@ -291,7 +288,7 @@ py-6
               p-8 shadow-[0_0_80px_rgba(59,130,246,0.2)]"
             >
 
-              {/* GLOW */}
+            
 
               <div
                 className="absolute inset-0
@@ -303,7 +300,7 @@ py-6
 
               <div className="relative z-10">
 
-                {/* ICON */}
+               
 
                 <div
                   className="w-20 h-20 mx-auto mb-6
@@ -318,7 +315,7 @@ py-6
 
                 </div>
 
-                {/* TEXT */}
+   
 
                 <h2 className="text-3xl font-black text-center mb-4">
 
@@ -333,7 +330,7 @@ py-6
 
                 </p>
 
-                {/* ACTIONS */}
+              
 
                 <div className="grid grid-cols-2 gap-4">
 
